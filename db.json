@@ -4,112 +4,141 @@
       {
         "id": 1,
         "faculty": "Teknik",
-        "count": 320
+        "count": 480
       },
       {
         "id": 2,
-        "faculty": "Ekonomi",
-        "count": 210
+        "faculty": "Ekonomi dan Bisnis",
+        "count": 350
       },
       {
         "id": 3,
-        "faculty": "Kedokteran",
-        "count": 150
+        "faculty": "Kedokteran Gigi",
+        "count": 190
       },
       {
         "id": 4,
-        "faculty": "Hukum",
-        "count": 180
+        "faculty": "Ilmu Komputer dan Informatika",
+        "count": 390
       },
       {
         "id": 5,
-        "faculty": "Ilmu Komputer",
-        "count": 260
+        "faculty": "Farmasi",
+        "count": 160
       }
     ],
     "genderRatio": [
       {
         "id": 1,
         "gender": "Laki-laki",
-        "count": 600
+        "count": 820
       },
       {
         "id": 2,
         "gender": "Perempuan",
-        "count": 700
+        "count": 910
       }
     ],
     "registrations": [
       {
         "id": 1,
         "year": 2020,
-        "total": 500
+        "total": 650,
+        "new_students": 320
       },
       {
         "id": 2,
         "year": 2021,
-        "total": 580
+        "total": 730,
+        "new_students": 350
       },
       {
         "id": 3,
         "year": 2022,
-        "total": 640
+        "total": 810,
+        "new_students": 380
       },
       {
         "id": 4,
         "year": 2023,
-        "total": 710
+        "total": 920,
+        "new_students": 410
+      },
+      {
+        "id": 5,
+        "year": 2024,
+        "total": 1050,
+        "new_students": 450
       }
     ],
     "gradeDistribution": [
       {
-        "subject": "TI",
-        "A": 120,
-        "B": 80,
-        "C": 40
+        "subject": "Algoritma dan Pemrograman",
+        "A": 95,
+        "B": 110,
+        "C": 60,
+        "D": 25
       },
       {
-        "subject": "SI",
-        "A": 100,
-        "B": 90,
-        "C": 50
-      },
-      {
-        "subject": "MI",
-        "A": 110,
+        "subject": "Statistika Bisnis",
+        "A": 70,
         "B": 85,
-        "C": 30
+        "C": 70,
+        "D": 30
+      },
+      {
+        "subject": "Anatomi Fisiologi",
+        "A": 130,
+        "B": 50,
+        "C": 20,
+        "D": 5
+      },
+      {
+        "subject": "Hukum Perdata",
+        "A": 60,
+        "B": 90,
+        "C": 80,
+        "D": 40
       }
     ],
     "lecturerRanks": [
       {
         "rank": "Asisten Ahli",
-        "count": 30
+        "count": 45
       },
       {
         "rank": "Lektor",
-        "count": 50
+        "count": 65
       },
       {
         "rank": "Lektor Kepala",
-        "count": 40
+        "count": 55
       },
       {
         "rank": "Guru Besar",
-        "count": 10
+        "count": 18
+      },
+      {
+        "rank": "Tenaga Pengajar",
+        "count": 25
       }
     ]
   },
   "dosen": [
     {
       "id": 1,
-      "nama": "Pak Syoifur",
+      "nama": "Pak Syaifur",
       "max_sks": 12
     },
     {
       "id": 2,
-      "nama": "BU Wisee",
+      "nama": "Pak Suprayogi",
       "max_sks": 10
+    },
+    {
+      "id": 3,
+      "nama": "Pak Egia",
+      "max_sks": 12
     }
   ],
   "kelas": [
@@ -129,122 +158,122 @@
   "mahasiswa": [
     {
       "id": "1",
-      "nama": "Andi",
-      "nim": "M001",
+      "nama": "Alex Chandra",
+      "nim": "A11.2021.12345",
       "max_sks": 18
     },
     {
       "id": "2",
-      "nama": "Budi",
-      "nim": "M002",
+      "nama": "Bella Santosa",
+      "nim": "A11.2023.67890",
       "max_sks": 20
     },
     {
       "id": "3",
-      "nama": "Citra",
-      "nim": "M003",
+      "nama": "Cahya Dewi",
+      "nim": "A11.2020.54321",
       "max_sks": 22
     },
     {
       "id": "4",
-      "nama": "Dina",
-      "nim": "M004",
+      "nama": "Dimas Pratama",
+      "nim": "A11.2022.98765",
       "max_sks": 18
     },
     {
       "id": "5",
-      "nama": "Eko",
-      "nim": "M005",
+      "nama": "Elisa Fitri",
+      "nim": "A11.2021.23456",
       "max_sks": 24
     },
     {
       "id": "6",
-      "nama": "Fajar",
-      "nim": "M006",
+      "nama": "Fahmi Aziz",
+      "nim": "A11.2023.78901",
       "max_sks": 21
     },
     {
       "id": "7",
-      "nama": "Gita",
-      "nim": "M007",
+      "nama": "Gina Lestari",
+      "nim": "A11.2020.34567",
       "max_sks": 20
     },
     {
       "id": "8",
-      "nama": "Hani",
-      "nim": "M008",
+      "nama": "Hadi Wijaya",
+      "nim": "A11.2022.89012",
       "max_sks": 18
     },
     {
       "id": "9",
-      "nama": "Iwan",
-      "nim": "M009",
+      "nama": "Indra Kusuma",
+      "nim": "A11.2021.45678",
       "max_sks": 20
     },
     {
       "id": "10",
-      "nama": "Joko",
-      "nim": "M010",
+      "nama": "Jihan Permata",
+      "nim": "A11.2023.90123",
       "max_sks": 18
     },
     {
       "id": "11",
-      "nama": "Kiki",
-      "nim": "M011",
+      "nama": "Kevin Sanjaya",
+      "nim": "A11.2020.65432",
       "max_sks": 24
     },
     {
       "id": "12",
-      "nama": "Lia",
-      "nim": "M012",
+      "nama": "Laila Putri",
+      "nim": "A11.2022.10987",
       "max_sks": 20
     },
     {
       "id": "13",
-      "nama": "Maya",
-      "nim": "M013",
+      "nama": "Miko Aditama",
+      "nim": "A11.2021.56789",
       "max_sks": 18
     },
     {
       "id": "14",
-      "nama": "Nina",
-      "nim": "M014",
+      "nama": "Nadia Rachma",
+      "nim": "A11.2023.21098",
       "max_sks": 22
     },
     {
       "id": "15",
-      "nama": "Oki",
-      "nim": "M015",
+      "nama": "Oscar Nugroho",
+      "nim": "A11.2020.76543",
       "max_sks": 20
     },
     {
       "id": "16",
-      "nama": "Putri",
-      "nim": "M016",
+      "nama": "Putra Negara",
+      "nim": "A11.2022.32109",
       "max_sks": 18
     },
     {
       "id": "17",
-      "nama": "Qila",
-      "nim": "M017",
+      "nama": "Qori Amelia",
+      "nim": "A11.2021.87654",
       "max_sks": 18
     },
     {
       "id": "18",
-      "nama": "Rudi",
-      "nim": "M018",
+      "nama": "Rendy Setiawan",
+      "nim": "A11.2023.43210",
       "max_sks": 21
     },
     {
       "id": "19",
-      "nama": "Salsa",
-      "nim": "M019",
+      "nama": "Sinta Wijayanti",
+      "nim": "A11.2020.98765",
       "max_sks": 18
     },
     {
       "id": "20",
-      "nama": "Tino",
-      "nim": "M020",
+      "nama": "Teguh Santoso",
+      "nim": "A11.2022.11223",
       "max_sks": 18
     }
   ],
@@ -256,12 +285,12 @@
     },
     {
       "id": "2",
-      "name": "Basis Data",
+      "name": "Pemrogaman Sisi Klien",
       "sks": 3
     },
     {
       "id": "3",
-      "name": "Jaringan Komputer",
+      "name": "Pemrograman Sisi Server",
       "sks": 2
     }
   ],
